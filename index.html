@@ -14,31 +14,23 @@
 
     <title>Frontend Mentor | Loopstudios landing page</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <!-- stylesheet 👍 -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="primary-header">
       <div>
         <h1><a href="#">loopstudios</a></h1>
 
         <button type="button">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span>
+            <ion-icon name="menu-outline"></ion-icon>
+          </span>
         </button>
       </div>
 
-      <nav>
-        <ul>
+      <nav class="primary-nav">
+        <ul class="nav-links">
           <li><a href="#">About</a></li>
           <li><a href="#">Careers</a></li>
           <li><a href="#">Events</a></li>
@@ -62,5 +54,15 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+
+    <!-- ionicon links -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

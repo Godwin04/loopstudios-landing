@@ -9,8 +9,8 @@
 }
 
 :root {
-  --ff-header: josepfin, sans-serif;
-  --ff-body: alata, sans-serif;
+  --ff-header: alata, sans-serif;
+  --ff-body: josepfin, sans-serif;
 
   --clr-white: hsl(0, 0%, 100%);
   --clr-black: hsl(0, 0%, 0%);
@@ -52,7 +52,7 @@ body {
 /* Set core body defaults, Typographic tweaks!, Add accessible line-height, Improve text rendering */
 body {
   font-family: var(--ff-body);
-  font-weight: 400;
+  font-weight: 300;
   min-width: 310px;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
