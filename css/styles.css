@@ -65,6 +65,8 @@ body {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+    .attribution a{ font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
 }
 
 a {
